@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+		<title>Verification payment</title>
+	</head>
+	<body>
+		<div class="container">
+			<h3 class="title">Crypto Payment</h3>
+			<div class="products-container">
+				<div class="product" data-name="p-1">
+					<img src="Bitcoin-Logo.png" alt="" />
+					<h3>Bitcoin</h3>
+					<div class="details">
+						ONLY send Bitcoin (mBTC) to this deposit address.
+					</div>
+				</div>
+				<div class="product" data-name="p-2">
+					<img src="ethereum-eth-logo.png" alt="" />
+					<h3>Ethereum</h3>
+					<div class="details">
+						ONLY send Ethereum (mETH) to this deposit address.
+					</div>
+				</div>
+				<div class="product" data-name="p-3">
+					<img src="litecoin-ltc-logo.png" alt="" />
+					<h3>Litecoin</h3>
+					<div class="details">
+						ONLY send Litecoin (mLTC) to this deposit address.
+					</div>
+				</div>
+				<div class="product" data-name="p-4">
+					<img src="tether-usdt-logo.png" alt="" />
+					<h3>Tether</h3>
+					<div class="details">
+						ONLY send Tether (USDT) to this deposit address.
+					</div>
+				</div>
+				<div class="product" data-name="p-5">
+					<img src="usd-coin-usdc-logo.png" alt="" />
+					<h3>USD Coin</h3>
+					<div class="details">
+						ONLY USD Coin (USDC) to this deposit address.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="products-preview">
+			<div class="preview" data-target="p-1">
+				<p class="close">x</p>
+				<img src="BTC.jpg" alt="" />
+				<h3>Bitcoin</h3>
+				<p>ONLY send Bitcoin (mBTC) to this deposit address.</p>
+				<input
+					type="text"
+					id="myImp"
+					class="text"
+					value="38YdeMZhvkiehAL6wkaaSRgrzqoCjjja66"
+					readonly
+				/>
+				<button id="btnCopy" class="btnCopy">copy address</button>
+			</div>
+			<div class="preview" data-target="p-2">
+				<p class="close">x</p>
+				<img src="ETH.jpg" alt="" />
+				<h3>Ethereum</h3>
+				<p>ONLY send Ethereum (mETH) to this deposit address.</p>
+				<input
+					type="text"
+					id="myImpp"
+					class="text"
+					value="0xbc894DF76aAcfdcE3f01aB58F0ae86f7F614ad62"
+					readonly
+				/>
+				<button id="btnCopyy" class="btnCopy">copy address</button>
+			</div>
+			<div class="preview" data-target="p-3">
+				<p class="close">x</p>
+				<img src="LTC.jpg" alt="" />
+				<h3>Litecoin</h3>
+				<p>ONLY send Litecoin (mLTC) to this deposit address.</p>
+				<input
+					type="text"
+					id="myImppp"
+					class="text"
+					value="MTuZzcCqVZHyjXU6toMtLxo9CPv3MEUpwb"
+					readonly
+				/>
+				<button id="btnCopyyy" class="btnCopy">copy address</button>
+			</div>
+			<div class="preview" data-target="p-4">
+				<p class="close">x</p>
+				<img src="USDT.jpg" alt="" />
+				<h3>Tether</h3>
+				<p>ONLY send Tether (USDT) to this deposit address.</p>
+				<input
+					type="text"
+					id="myImpppp"
+					class="text"
+					value="TMAoWsJmeauicqyGxS75BCBvLX9dUP6L99"
+					readonly
+				/>
+				<button id="btnCopyyyy" class="btnCopy">copy address</button>
+			</div>
+			<div class="preview" data-target="p-5">
+				<p class="close">x</p>
+				<img src="USDC.jpg" alt="" />
+				<h3>USD Coin</h3>
+				<p>ONLY send USD Coin (USDC) to this deposit address.</p>
+				<input
+					type="text"
+					id="myImppppp"
+					class="text"
+					value="0xC65b1681CA47859994f78DCBE375f8bb24a7530b"
+					readonly
+				/>
+				<button id="btnCopyyyyy" class="btnCopy">copy address</button>
+			</div>
+		</div>
+	</body>
+</html>
